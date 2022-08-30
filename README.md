@@ -1,6 +1,7 @@
-[![crate](https://img.shields.io/crates/v/iter-rationals.svg)](https://crates.io/crates/iter-rationals)
-
 # iter-rationals
+
+[![crate](https://img.shields.io/crates/v/iter-rationals.svg)](https://crates.io/crates/iter-rationals)
+[![documentation](https://docs.rs/iter-rationals/badge.svg)](https://docs.rs/iter-rationals)
 
 This crate implements an iterator over the [rational numbers] which:
 
