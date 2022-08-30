@@ -10,13 +10,13 @@ use num_integer::Integer;
 use num_rational::Ratio;
 use num_traits::cast::FromPrimitive;
 
-pub struct Rationals<T: Integer + Clone> {
+pub struct Rationals<T: Integer> {
     state: Ratio<T>,
 }
 
 impl<T> Rationals<T>
 where
-    T: Integer + Clone + FromPrimitive,
+    T: Integer + FromPrimitive + Clone,
 {
     /// Create a new iterator over the rationals.
     ///
@@ -35,6 +35,15 @@ where
 
     fn one() -> Ratio<T> {
         Ratio::from_integer(T::from_u64(1).unwrap())
+    }
+}
+
+impl<T> Default for Rationals<T>
+where
+    T: Integer + FromPrimitive + Clone,
+{
+    fn default() -> Self {
+        Self::new()
     }
 }
 
