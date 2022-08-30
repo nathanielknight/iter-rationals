@@ -23,7 +23,7 @@ where
     /// ```
     /// use iter_rationals::Rationals;
     ///
-    /// let mut rationals = Rationals::<u32>::new();
+    /// let rationals = Rationals::<u32>::new();
     ///
     /// for r in rationals.take(10) {
     ///     println!("{r}");
