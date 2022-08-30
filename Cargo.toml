@@ -1,5 +1,6 @@
 [package]
 name = "iter-rationals"
+description = "A fixed size, linear time, no-std iterator over the rational numbers."
 version = "0.1.0"
 license = "MPL-2.0"
 authors = ["Nat Knight <nathaniel.ep@gmail.com>"]
