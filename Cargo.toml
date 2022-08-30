@@ -1,7 +1,13 @@
 [package]
 name = "iter-rationals"
 version = "0.1.0"
+authors = ["Nat Knight <nathaniel.ep@gmail.com>"]
+repository = "https://github.com/nathanielknight/iter-rationals"
 edition = "2021"
+readme = "README.md"
+keywords = ["mathematics"]
+categories = ["algorithms", "science", "no-std"]
+exclude = [".github/"]
 
 [dependencies]
 num-integer = "0.1.45"
