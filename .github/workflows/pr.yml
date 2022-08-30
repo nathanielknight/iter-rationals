@@ -15,6 +15,7 @@ jobs:
       - uses: dtolnay/rust-toolchain@master
         with:
           toolchain: ${{ matrix.rust }}
+          components: clippy
       - run: cargo build
       - run: cargo check
       - run: cargo test

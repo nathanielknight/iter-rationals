@@ -2,6 +2,7 @@
 
 [![crate](https://img.shields.io/crates/v/iter-rationals.svg)](https://crates.io/crates/iter-rationals)
 [![documentation](https://docs.rs/iter-rationals/badge.svg)](https://docs.rs/iter-rationals)
+[![main](https://github.com/nathanielknight/iter-rationals/actions/workflows/main.yml/badge.svg)](https://github.com/nathanielknight/iter-rationals/actions/workflows/main.yml)
 
 This crate implements an iterator over the [rational numbers] which:
 
