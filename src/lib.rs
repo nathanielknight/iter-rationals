@@ -26,7 +26,7 @@ where
     /// let rationals = Rationals::<u32>::new();
     ///
     /// for r in rationals.take(10) {
-    ///     println!("{r}");
+    ///     println!("{}", r);
     /// }
     /// ```
     pub fn new() -> Self {
@@ -71,7 +71,7 @@ mod tests {
     fn test_speed_is_reasonable() {
         let mut r = Rationals::<u32>::new();
         let nth_rational = r.nth(1_000_000).unwrap();
-        println!("{nth_rational}");
+        println!("{}", nth_rational);
         let expected = Ratio::new(1287, 1096);
         assert_eq!(expected, nth_rational);
     }

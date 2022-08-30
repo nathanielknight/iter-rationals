@@ -1,11 +1,12 @@
 [package]
 name = "iter-rationals"
 description = "A fixed size, linear time, no-std iterator over the rational numbers."
-version = "0.1.0"
+version = "0.2.0"
 license = "MPL-2.0"
 authors = ["Nat Knight <nathaniel.ep@gmail.com>"]
 repository = "https://github.com/nathanielknight/iter-rationals"
-edition = "2021"
+edition = "2018"
+rust_version = "1.31"
 readme = "README.md"
 keywords = ["mathematics"]
 categories = ["algorithms", "science", "no-std"]
