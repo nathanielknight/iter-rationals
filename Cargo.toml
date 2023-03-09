@@ -11,7 +11,9 @@ readme = "README.md"
 keywords = ["mathematics"]
 categories = ["algorithms", "science", "no-std"]
 exclude = [".github/"]
+resolver = "2"
 
 [dependencies]
 num-integer = "0.1.45"
 num-rational = "0.4.1"
+num-traits = { version = ">=0.2.0", default-features = false }
